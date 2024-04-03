@@ -5,9 +5,152 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(../public/backgrounds/nasa-Q1p7bh3SHj8-unsplash.jpg); /* Replace 'background-image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+ 
+}
+.leftnav {
+ 
+ position: absolute;
+ top: 100px;
+ left: 0;
+ 
+
+  width: 200px; /* Adjust the width as needed */
+  height: 300px;
+  background-color: transparent; /* Transparent background */
+
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  padding-top: 60px; /* Adjust padding if needed */
+}
+
+.leftnav nav {
+  padding: 15px;
+}
+
+.leftnav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leftnav .nav-link {
+  color:white; /* Set link color */
+  border: none;
+  font-family: cursive;
+}
+
+.leftnav .nav-link:hover {
+  text-decoration: underline; /* Remove underline on hover */
+  color: rgb(21, 13, 1);
+  background-color: rgb(182, 188, 188); /* Change color on hover */
+  border-radius: 20px;
+  transition-duration: 500ms;
+}
+
+.landing {
+ position: absolute;
+ top: 100px;
+ 
+ 
+  
+  width: 500px; /* Adjust the width as needed */
+  height: 500px;
+  background-color: transparent; /* Transparent background */
+
+ 
+  color: white;
+  overflow-y: auto; /* Add scrollbar if content overflows */
+  padding-top: 200px; /* Adjust padding if needed */
+}
+
+.admin{
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 248, 255, 0.484);
+
+}
+
+.list-group{ 
+  
+  height: 400px;
+  width: 400px;
+background-color: antiquewhite;
+
+ 
+}
+.list-group ul {
+ 
+  margin: auto;
+ }
+.list-group ul li{
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  
+  
+} 
+.list-group ul li Link{
+ border: none;
+} 
+
+.card{
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  
+}
+/* -----------------------ADD TASk---------------------- */
+
+.AddEmp-cont h1{
+  font-weight: 500;
+  margin: 20px auto;
+  background-color: rgba(240, 255, 255, 0.473);
+}
+.AddEmp-cont form{
+  background-color: gainsboro;
+  width: 500px;
+  height: auto;
+  padding:24px;
+  margin: auto;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.AddEmp-cont form input , textarea , select{
+  width: 100%;
+  height: 40px;
+  margin: auto;
+}
+.AddEmp-cont input[type="submit"]
+{
+  background-color: black;
+  width: 70%;
+  border: solid 1px black;
+  color: aliceblue;
+}
+.AddEmp-cont input[type="submit"]:active
+{
+  background-color: aliceblue;
+  color: black;
 }
