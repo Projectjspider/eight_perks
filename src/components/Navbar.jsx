@@ -62,7 +62,7 @@ c-11 -54 -31 -43 -31 18 0 43 3 56 15 56 8 0 15 -7 15 -15z m86 -10 c12 -12
                             Login
                         </a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="/Adminhome">Admin</a></li>
+                            <li><a className="dropdown-item" href="/Adminlogin">Admin</a></li>
                             <li><a className="dropdown-item" href="#">Employee</a></li>
                             <li><a className="dropdown-item" href="#">Manager</a></li>
                             <li><a className="dropdown-item" href="#">Guest</a></li>
